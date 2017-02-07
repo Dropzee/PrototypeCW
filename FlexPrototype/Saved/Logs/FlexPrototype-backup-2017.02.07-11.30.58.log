@@ -1,0 +1,1061 @@
+﻿Log file open, 02/07/17 10:53:51
+LogInit:Display: Running engine for game: FlexPrototype
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1214925033) SRandInit(-1214925031).
+LogInit: Using version manifest at CL 0 with build ID 'd3add0f1-17ef-4da8-be7e-d9afcf78db9a'
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072412
+LogInit: Version: 4.12.4-0+UE4
+LogInit: API Version: 0
+LogInit: Net Version: 0
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan 31 2017 12:42:42
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine-FleX/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.07-10.53.51:658][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.07-10.53.51:658][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.07-10.53.51:669][  0]LogInit: Computer: TERRAN46
+[2017.02.07-10.53.51:669][  0]LogInit: User: b3038557
+[2017.02.07-10.53.51:669][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.07-10.53.51:669][  0]LogInit: High frequency timer resolution =3.117769 MHz
+[2017.02.07-10.53.51:669][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.02.07-10.53.51:669][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-10.53.51:669][  0]LogMemory: Process Physical Memory: 188.31 MB used, 188.31 MB peak
+[2017.02.07-10.53.51:669][  0]LogMemory: Process Virtual Memory: 194.87 MB used, 194.87 MB peak
+[2017.02.07-10.53.51:669][  0]LogMemory: Physical Memory: 3216.30 MB used, 8032.55 MB total
+[2017.02.07-10.53.51:669][  0]LogMemory: Virtual Memory: 533.69 MB used, 134217728.00 MB total
+[2017.02.07-10.53.52:069][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.02.07-10.53.52:407][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.07-10.53.52:427][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.02.07-10.53.52:427][  0]LogD3D11RHI:       3991/0/4016 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.07-10.53.52:432][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.02.07-10.53.52:432][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.02.07-10.53.52:433][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.07-10.53.52:433][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.07-10.53.52:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.07-10.53.52:436][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.07-10.53.52:436][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.07-10.53.52:436][  0]LogWindows: EnumDisplayDevices:
+[2017.02.07-10.53.52:436][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.02.07-10.53.52:436][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.02.07-10.53.52:436][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.07-10.53.52:436][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.07-10.53.52:437][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.07-10.53.52:437][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.07-10.53.52:437][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.02.07-10.53.52:437][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.02.07-10.53.52:437][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.02.07-10.53.52:437][  0]LogD3D11RHI:   Driver Version: 373.06 (internal:21.21.13.7306, unified:373.06)
+[2017.02.07-10.53.52:437][  0]LogD3D11RHI:      Driver Date: 10-1-2016
+[2017.02.07-10.53.52:437][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.07-10.53.52:448][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.07-10.53.52:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.07-10.53.52:464][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Intermediate/Shaders/WorkingDirectory/6360/).
+[2017.02.07-10.53.52:464][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/b3038557/AppData/Local/Temp/UnrealShaderWorkingDir/2EC1BACE461AF7001A8448834CD263CC/'.
+[2017.02.07-10.53.52:464][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.07-10.53.53:100][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.07-10.53.53:106][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.07-10.53.53:116][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.07-10.53.53:123][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.07-10.53.53:129][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.07-10.53.53:134][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.07-10.53.53:139][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.07-10.53.53:145][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.07-10.53.53:150][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.07-10.53.53:156][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.07-10.53.53:162][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.07-10.53.53:167][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.07-10.53.53:172][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.07-10.53.53:173][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.07-10.53.53:191][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.07-10.53.53:196][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.07-10.53.53:196][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.07-10.53.53:243][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache: Loaded boot cache 0.06s 54MB ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/DerivedDataCache/Boot.ddc.
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/DerivedDataCache/Boot.ddc
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.07-10.53.53:304][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2017.02.07-10.53.53:316][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2017.02.07-10.53.53:316][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2017.02.07-10.53.53:316][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2017.02.07-10.53.53:473][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.07-10.53.53:474][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.07-10.53.53:635][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.07-10.53.53:635][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.07-10.53.53:635][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.07-10.53.53:866][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.02.07-10.53.53:890][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021862 seconds
+[2017.02.07-10.53.53:894][  0]LogUObjectArray: 28947 objects as part of root set at end of initial load.
+[2017.02.07-10.53.53:894][  0]LogUObjectAllocator: 5900040 out of 0 bytes used by permanent object pool.
+[2017.02.07-10.53.53:894][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.07-10.53.53:897][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.07-10.53.54:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.07-10.53.54:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.07-10.53.54:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.07-10.53.54:800][  0]SourceControl: Info Source control is disabled
+[2017.02.07-10.53.54:800][  0]SourceControl: Info Source control is disabled
+[2017.02.07-10.53.54:808][  0]SourceControl: Info Source control is disabled
+[2017.02.07-10.53.54:814][  0]SourceControl: Info Source control is disabled
+[2017.02.07-10.53.54:996][  0]LogEngine: Initializing Engine...
+[2017.02.07-10.53.54:997][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.02.07-10.53.54:997][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.02.07-10.53.55:176][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.02.07-10.53.55:179][  0]LogInit: No audio devices found!
+[2017.02.07-10.53.55:208][  0]LogDerivedDataCache: Saved boot cache 0.03s 54MB ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/DerivedDataCache/Boot.ddc.
+[2017.02.07-10.53.55:217][  0]LogInit: Texture streaming: Enabled
+[2017.02.07-10.53.55:229][  0]LogInit: Transaction tracking system initialized
+[2017.02.07-10.53.55:240][  0]BlueprintLog: New page: Editor Load
+[2017.02.07-10.53.55:276][  0]LocalizationService: Info Localization service is disabled
+[2017.02.07-10.53.55:319][  0]LogConsoleResponse:Display: 
+[2017.02.07-10.53.55:402][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.02.07-10.53.55:402][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.07-10.53.55:463][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/' took 0.01s
+[2017.02.07-10.53.55:463][  0]SourceControl: Info Source control is disabled
+[2017.02.07-10.53.55:464][  0]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-10.53.55:464][  0]LightingResults: New page: Lighting Build
+[2017.02.07-10.53.55:465][  0]MapCheck: New page: Map Check
+[2017.02.07-10.53.55:465][  0]LightingResults: New page: Lighting Build
+[2017.02.07-10.53.55:801][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-10.53.55:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-10.53.55:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-10.53.55:838][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.892ms to complete.
+[2017.02.07-10.53.55:838][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.375
+[2017.02.07-10.53.55:975][  0]LogCollectionManager: Loaded 0 collections in 0.000692 seconds
+[2017.02.07-10.53.56:015][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/Collections/' took 0.01s
+[2017.02.07-10.53.56:015][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/Developers/b3038557/Collections/' took 0.01s
+[2017.02.07-10.53.56:015][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/Collections/' took 0.01s
+[2017.02.07-10.53.56:015][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.07-10.53.56:022][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2065 classes and 368 folders.
+[2017.02.07-10.53.56:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.07-10.53.56:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.07-10.53.56:025][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.02.07-10.53.56:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.02.07-10.53.56:058][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.07-10.53.56:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.02.07-10.53.56:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.07-10.53.56:074][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.07-10.53.56:099][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.02.07-10.53.56:099][  0]LogLoad: Full Startup: 5.13 seconds (BP compile: 0.06 seconds)
+[2017.02.07-10.53.56:099][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.02.07-10.53.56:108][  0]LogOcInput: OculusInput pre-init called
+[2017.02.07-10.53.56:126][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.07-10.53.56:260][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.02.07-10.53.56:327][  1]LogAssetRegistry: Asset discovery search completed in 2.4843 seconds
+[2017.02.07-10.53.56:327][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.07-10.53.56:328][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.02.07-10.53.59:029][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-10.53.59:029][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-10.53.59:030][316]PIE: New page: PIE session: RollingBPExampleMap (7 Feb 2017 10:53:59)
+[2017.02.07-10.53.59:030][316]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.02.07-10.53.59:066][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035496s)
+[2017.02.07-10.53.59:069][316]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-10.53.59:069][316]LogPlayLevel: PIE: World Init took: (0.002786s)
+[2017.02.07-10.53.59:069][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.039005s)
+[2017.02.07-10.53.59:151][316]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-10.53.59:157][316]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-10.53.59
+[2017.02.07-10.53.59:158][316]LogWorld: Bringing up level for play took: 0.005580
+[2017.02.07-10.53.59:159][316]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-10.53.59:160][316]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.07-10.53.59:162][316]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.071
+[2017.02.07-10.53.59:162][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-10.54.12:195][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-10.54.12:227][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-10.56.06:224][755]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-10.56.06:280][755]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-10.56.06:280][755]LightingResults: New page: Lighting Build
+[2017.02.07-10.56.06:281][755]LoadErrors: New page: Loading map: Empty.umap
+[2017.02.07-10.56.06:282][755]MapCheck: New page: Map Check
+[2017.02.07-10.56.06:282][755]LightingResults: New page: Lighting Build
+[2017.02.07-10.56.06:293][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-10.56.06:320][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-10.56.06:347][755]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.606ms to complete.
+[2017.02.07-10.56.06:347][755]LogFileHelpers: Loading map 'Empty' took 0.068
+[2017.02.07-10.56.07:333][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.56.07:333][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-10.56.07:333][869]PIE: New page: PIE session: Empty (7 Feb 2017 10:56:07)
+[2017.02.07-10.56.07:333][869]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-10.56.07:334][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000910s)
+[2017.02.07-10.56.07:335][869]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-10.56.07:335][869]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2017.02.07-10.56.07:335][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001565s)
+[2017.02.07-10.56.07:391][869]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-10.56.07:393][869]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-10.56.07
+[2017.02.07-10.56.07:393][869]LogWorld: Bringing up level for play took: 0.000936
+[2017.02.07-10.56.07:394][869]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-10.56.07:395][869]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty 0.311
+[2017.02.07-10.56.07:395][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.56.12:848][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.56.12:879][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.56.17:884][ 89]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.02.07-10.56.23:775][677]BlueprintLog: New page: Compile HUD
+[2017.02.07-10.56.23:862][677]BlueprintEditorCompileResults: Info [0152.89] Compile of HUD successful! [in 85 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-10.56.24:266][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-10.56.24:300][721]LogSavePackage: Save=26.55ms
+[2017.02.07-10.56.24:300][721]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUD6A13D0B94D299F2952D649AF74EFCB25.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-10.56.24:302][721]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-10.56.36:483][159]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-10.57.02:230][183]BlueprintLog: New page: Compile Empty
+[2017.02.07-10.57.02:299][183]BlueprintEditorCompileResults: Info [0191.33] Compile of PersistentLevel.Empty successful! [in 69 ms] (/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty)
+[2017.02.07-10.57.06:146][627]LogSavePackage: Save=62.60ms
+[2017.02.07-10.57.06:146][627]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/EmptyC9BD9336428574BA8808C9AFBE5E84B5.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap'
+[2017.02.07-10.57.06:147][627]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap
+[2017.02.07-10.57.06:171][627]LogFileHelpers: Saving map 'Empty' took 0.140
+[2017.02.07-10.58.35:056][941]BlueprintLog: New page: Compile MainMenu
+[2017.02.07-10.58.35:135][941]BlueprintEditorCompileResults: Info [0284.17] Compile of MainMenu successful! [in 79 ms] (/Game/HUD/MainMenu.MainMenu)
+[2017.02.07-10.58.35:582][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/MainMenu" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset" SILENT=true
+[2017.02.07-10.58.35:602][991]LogSavePackage: Save=14.78ms
+[2017.02.07-10.58.35:602][991]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/MainMenu9E700BA9486E2478185B57BCB145650D.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset'
+[2017.02.07-10.58.35:605][991]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset
+[2017.02.07-10.58.38:604][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.58.38:604][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-10.58.38:604][346]PIE: New page: PIE session: Empty (7 Feb 2017 10:58:38)
+[2017.02.07-10.58.38:604][346]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-10.58.38:605][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000899s)
+[2017.02.07-10.58.38:606][346]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-10.58.38:606][346]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.02.07-10.58.38:606][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001592s)
+[2017.02.07-10.58.38:668][346]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-10.58.38:670][346]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-10.58.38
+[2017.02.07-10.58.38:670][346]LogWorld: Bringing up level for play took: 0.000923
+[2017.02.07-10.58.38:671][346]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-10.58.38:672][346]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.406
+[2017.02.07-10.58.38:672][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.58.40:600][577]LogScript:Warning: Accessed None trying to read property HUd_Ref
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenu_C_1
+	Function /Game/HUD/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0069
+[2017.02.07-10.58.40:601][577]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-10.58.40:601][577]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-10.58.40:617][577]Cmd: MEM
+[2017.02.07-10.58.40:631][577]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-10.58.40:631][577]LogMemory: Process Physical Memory: 1003.18 MB used, 1011.42 MB peak
+[2017.02.07-10.58.40:631][577]LogMemory: Process Virtual Memory: 1756.13 MB used, 1772.55 MB peak
+[2017.02.07-10.58.40:631][577]LogMemory: Physical Memory: 4265.53 MB used, 8032.55 MB total
+[2017.02.07-10.58.40:631][577]LogMemory: Virtual Memory: 22939.08 MB used, 134217728.00 MB total
+[2017.02.07-10.58.40:631][577]LogMemory: 
+[2017.02.07-10.58.40:631][577]Allocator Stats for TBB: (not implemented)
+[2017.02.07-10.58.41:182][577]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-10.58.41:182][577]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-10.58.41:189][577]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-10.58.41
+[2017.02.07-10.58.41:189][577]LogWorld: Bringing up level for play took: 0.006382
+[2017.02.07-10.58.41:190][577]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-10.58.41:191][577]LogLoad: Took 0.590241 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-10.58.54:682][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.58.54:715][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.59.16:750][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.59.16:750][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-10.59.16:750][669]PIE: New page: PIE session: Empty (7 Feb 2017 10:59:16)
+[2017.02.07-10.59.16:750][669]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-10.59.16:751][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000942s)
+[2017.02.07-10.59.16:751][669]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-10.59.16:751][669]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.02.07-10.59.16:752][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001678s)
+[2017.02.07-10.59.16:810][669]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-10.59.16:812][669]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-10.59.16
+[2017.02.07-10.59.16:812][669]LogWorld: Bringing up level for play took: 0.000886
+[2017.02.07-10.59.16:813][669]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-10.59.16:814][669]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.262
+[2017.02.07-10.59.16:814][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.59.43:583][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.59.43:616][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-10.59.55:414][237]LogEditorViewport: Clicking Background
+[2017.02.07-11.00.26:314][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.00.26:314][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.00.26:314][332]PIE: New page: PIE session: Empty (7 Feb 2017 11:00:26)
+[2017.02.07-11.00.26:314][332]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.00.26:315][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001015s)
+[2017.02.07-11.00.26:316][332]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.00.26:316][332]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.02.07-11.00.26:316][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001713s)
+[2017.02.07-11.00.26:381][332]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.00.26:383][332]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.00.26
+[2017.02.07-11.00.26:383][332]LogWorld: Bringing up level for play took: 0.000922
+[2017.02.07-11.00.26:384][332]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.00.26:385][332]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.688
+[2017.02.07-11.00.26:385][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.00.35:492][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.00.35:525][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.03.23:831][803]BlueprintLog: New page: Compile MainMenu
+[2017.02.07-11.03.23:906][803]BlueprintEditorCompileResults: Info [0572.96] Compile of MainMenu successful! [in 74 ms] (/Game/HUD/MainMenu.MainMenu)
+[2017.02.07-11.03.26:265][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/MainMenu" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset" SILENT=true
+[2017.02.07-11.03.26:281][ 83]LogSavePackage: Save=14.33ms
+[2017.02.07-11.03.26:281][ 83]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/MainMenu6254EDB647AB4832587E2DA697FE8BB4.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset'
+[2017.02.07-11.03.26:283][ 83]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/MainMenu.uasset
+[2017.02.07-11.09.00:987][249]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.09.01:026][249]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-11.09.01:026][249]LightingResults: New page: Lighting Build
+[2017.02.07-11.09.01:027][249]LoadErrors: New page: Loading map: RollingBPExampleMap.umap
+[2017.02.07-11.09.01:027][249]MapCheck: New page: Map Check
+[2017.02.07-11.09.01:027][249]LightingResults: New page: Lighting Build
+[2017.02.07-11.09.01:047][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-11.09.01:072][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-11.09.01:104][249]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.063ms to complete.
+[2017.02.07-11.09.01:104][249]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.079
+[2017.02.07-11.09.04:135][610]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-11.09.04:135][610]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-11.09.33:325][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:325][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:325][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2017.02.07-11.09.33:325][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:325][938]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1.EdGraphPin_50) from referencer (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CreateWidget_0.EdGraphPin_46).  Import failed...
+[2017.02.07-11.09.33:325][938]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_50''
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1.EdGraphPin_48) from referencer (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CreateWidget_0.EdGraphPin_44).  Import failed...
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_48''
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0.EdGraphPin_56) from referencer (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1.EdGraphPin_49).  Import failed...
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_56''
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0.EdGraphPin_60) from referencer (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_2.EdGraphPin_55).  Import failed...
+[2017.02.07-11.09.33:326][938]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_60''
+[2017.02.07-11.10.07:210][304]LogSavePackage: Save=1602.06ms
+[2017.02.07-11.10.07:210][304]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/RollingBPExampleMap6C01C4124D3C3C3CEA395C9078D40163.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2017.02.07-11.10.07:215][304]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2017.02.07-11.10.07:239][304]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.707
+[2017.02.07-11.10.07:267][304]LogSavePackage: Save=18.47ms
+[2017.02.07-11.10.07:267][304]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/RollingGameModeFD2C71764CAF645FCA1C77A136F3DF8F.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/RollingGameMode.uasset'
+[2017.02.07-11.10.07:268][304]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/RollingGameMode.uasset
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:459][543]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1.EdGraphPin_179) from referencer (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CreateWidget_0.EdGraphPin_175).  Import failed...
+[2017.02.07-11.10.36:459][543]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_179''
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:459][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/HUD/HUD.HUD:GetText_0.K2Node_CallFunction_1 or K2Node_CallFunction /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_CallFunction_1.EdGraphPin_177) from referencer (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CreateWidget_0.EdGraphPin_173).  Import failed...
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_177''
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_0 or K2Node_Event /Game/RollingBP/Blueprints/PhysicsBallBP1.PhysicsBallBP1:EventGraph.K2Node_Event_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_0 or K2Node_Event /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_Event_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_0 or K2Node_Event /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_Event_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:EventGraph.K2Node_Event_0 or K2Node_Event /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_Event_0
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_Event_0.EdGraphPin_191) from referencer (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CreateWidget_0.EdGraphPin_172).  Import failed...
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_0.EdGraphPin_191''
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0.EdGraphPin_185 or EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0.EdGraphPin_185
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0.EdGraphPin_185) from referencer (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_1.EdGraphPin_178).  Import failed...
+[2017.02.07-11.10.36:460][543]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_185''
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/HUD/MainMenu.MainMenu:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/HUD/HUD.HUD:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0
+[2017.02.07-11.10.36:460][543]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0.EdGraphPin_189 or EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:EventGraph.K2Node_VariableSet_0.EdGraphPin_189
+[2017.02.07-11.10.36:461][543]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode:ExecuteUbergraph_RollingGameMode.K2Node_VariableSet_0.EdGraphPin_189) from referencer (EdGraphPin /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap.EventGraph.K2Node_CallFunction_2.EdGraphPin_184).  Import failed...
+[2017.02.07-11.10.36:461][543]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_189''
+[2017.02.07-11.10.42:205][228]BlueprintLog: New page: Compile RollingBPExampleMap
+[2017.02.07-11.10.42:278][228]BlueprintEditorCompileResults: Info [1011.35] Compile of PersistentLevel.RollingBPExampleMap successful! [in 72 ms] (/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap)
+[2017.02.07-11.10.46:551][589]LogSavePackage: Save=1172.51ms
+[2017.02.07-11.10.46:551][589]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/RollingBPExampleMapD2B159034FC36087778424AB79A189FE.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2017.02.07-11.10.46:556][589]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2017.02.07-11.10.46:579][589]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.250
+[2017.02.07-11.10.50:549][ 13]BlueprintLog: New page: Compile RollingGameMode
+[2017.02.07-11.10.50:626][ 13]BlueprintEditorCompileResults: Info [1019.70] Compile of RollingGameMode successful! [in 76 ms] (/Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode)
+[2017.02.07-11.10.51:048][ 56]LogSavePackage: Save=16.29ms
+[2017.02.07-11.10.51:048][ 56]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/RollingGameMode2228BD014D9A511F9AA477A89D620BDD.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/RollingGameMode.uasset'
+[2017.02.07-11.10.51:049][ 56]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/RollingGameMode.uasset
+[2017.02.07-11.10.53:950][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.10.53:950][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.10.53:950][388]PIE: New page: PIE session: RollingBPExampleMap (7 Feb 2017 11:10:53)
+[2017.02.07-11.10.53:950][388]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.02.07-11.10.53:977][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027348s)
+[2017.02.07-11.10.53:979][388]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.10.53:979][388]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2017.02.07-11.10.53:979][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.029173s)
+[2017.02.07-11.10.54:046][388]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.10.54:052][388]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.10.54
+[2017.02.07-11.10.54:052][388]LogWorld: Bringing up level for play took: 0.005236
+[2017.02.07-11.10.54:053][388]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.10.54:054][388]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 1.009
+[2017.02.07-11.10.54:054][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.00:388][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.00:426][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.01:463][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.01:463][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.11.01:463][259]PIE: New page: PIE session: RollingBPExampleMap (7 Feb 2017 11:11:01)
+[2017.02.07-11.11.01:463][259]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.02.07-11.11.01:492][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028799s)
+[2017.02.07-11.11.01:493][259]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.11.01:493][259]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2017.02.07-11.11.01:493][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.030301s)
+[2017.02.07-11.11.01:559][259]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.11.01:565][259]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.11.01
+[2017.02.07-11.11.01:565][259]LogWorld: Bringing up level for play took: 0.005264
+[2017.02.07-11.11.01:566][259]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.11.01:567][259]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.523
+[2017.02.07-11.11.01:567][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.09:998][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.10:033][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.02.07-11.11.19:406][385]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.11.19:427][385]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-11.11.19:427][385]LightingResults: New page: Lighting Build
+[2017.02.07-11.11.19:427][385]LoadErrors: New page: Loading map: Empty.umap
+[2017.02.07-11.11.19:461][385]MapCheck: New page: Map Check
+[2017.02.07-11.11.19:461][385]LightingResults: New page: Lighting Build
+[2017.02.07-11.11.19:510][385]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-11.11.19:535][385]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-11.11.19:565][385]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.303ms to complete.
+[2017.02.07-11.11.19:565][385]LogFileHelpers: Loading map 'Empty' took 0.139
+[2017.02.07-11.11.20:620][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.20:620][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.11.20:620][508]PIE: New page: PIE session: Empty (7 Feb 2017 11:11:20)
+[2017.02.07-11.11.20:620][508]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.11.20:621][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000832s)
+[2017.02.07-11.11.20:621][508]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.11.20:621][508]LogPlayLevel: PIE: World Init took: (0.000425s)
+[2017.02.07-11.11.20:621][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001397s)
+[2017.02.07-11.11.20:687][508]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.11.20:689][508]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.11.20
+[2017.02.07-11.11.20:689][508]LogWorld: Bringing up level for play took: 0.000913
+[2017.02.07-11.11.20:690][508]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.11.20:691][508]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.353
+[2017.02.07-11.11.20:691][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.25:986][143]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.11.25:986][143]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.11.26:003][143]Cmd: MEM
+[2017.02.07-11.11.26:017][143]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.11.26:017][143]LogMemory: Process Physical Memory: 1161.95 MB used, 1351.84 MB peak
+[2017.02.07-11.11.26:017][143]LogMemory: Process Virtual Memory: 1974.65 MB used, 2376.21 MB peak
+[2017.02.07-11.11.26:017][143]LogMemory: Physical Memory: 4472.52 MB used, 8032.55 MB total
+[2017.02.07-11.11.26:017][143]LogMemory: Virtual Memory: 23173.43 MB used, 134217728.00 MB total
+[2017.02.07-11.11.26:017][143]LogMemory: 
+[2017.02.07-11.11.26:017][143]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.11.26:509][143]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.11.26:509][143]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.11.26:516][143]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.11.26
+[2017.02.07-11.11.26:517][143]LogWorld: Bringing up level for play took: 0.006290
+[2017.02.07-11.11.26:517][143]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.11.26:519][143]LogLoad: Took 0.532414 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.11.33:482][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.33:515][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.35:069][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.35:069][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.11.35:069][141]PIE: New page: PIE session: Empty (7 Feb 2017 11:11:35)
+[2017.02.07-11.11.35:069][141]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.11.35:070][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000903s)
+[2017.02.07-11.11.35:071][141]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.11.35:071][141]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.02.07-11.11.35:071][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001628s)
+[2017.02.07-11.11.35:132][141]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.11.35:134][141]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.11.35
+[2017.02.07-11.11.35:134][141]LogWorld: Bringing up level for play took: 0.000841
+[2017.02.07-11.11.35:135][141]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.11.35:136][141]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty 0.093
+[2017.02.07-11.11.35:136][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.37:322][403]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.11.37:322][403]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.11.37:338][403]Cmd: MEM
+[2017.02.07-11.11.37:353][403]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.11.37:353][403]LogMemory: Process Physical Memory: 1317.07 MB used, 1351.84 MB peak
+[2017.02.07-11.11.37:353][403]LogMemory: Process Virtual Memory: 2145.44 MB used, 2376.21 MB peak
+[2017.02.07-11.11.37:353][403]LogMemory: Physical Memory: 4623.45 MB used, 8032.55 MB total
+[2017.02.07-11.11.37:353][403]LogMemory: Virtual Memory: 23341.05 MB used, 134217728.00 MB total
+[2017.02.07-11.11.37:353][403]LogMemory: 
+[2017.02.07-11.11.37:353][403]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.11.37:810][403]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.11.37:810][403]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.11.37:817][403]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.11.37
+[2017.02.07-11.11.37:818][403]LogWorld: Bringing up level for play took: 0.006584
+[2017.02.07-11.11.37:818][403]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.11.37:819][403]LogLoad: Took 0.497537 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.11.39:915][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.11.39:946][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.12.03:000][741]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.12.04:906][931]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-11.12.04:906][931]LightingResults: New page: Lighting Build
+[2017.02.07-11.12.04:906][931]LoadErrors: New page: Loading map: RollingBPExampleMap.umap
+[2017.02.07-11.12.04:906][931]MapCheck: New page: Map Check
+[2017.02.07-11.12.04:906][931]LightingResults: New page: Lighting Build
+[2017.02.07-11.12.04:926][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-11.12.04:952][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-11.12.04:982][931]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.732ms to complete.
+[2017.02.07-11.12.04:983][931]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.078
+[2017.02.07-11.12.05:893][ 24]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-11.12.05:893][ 24]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-11.12.21:724][756]BlueprintLog: New page: Compile RollingBPExampleMap
+[2017.02.07-11.12.22:198][756]BlueprintEditorCompileResults: Info [1111.27] Compile of PersistentLevel.RollingBPExampleMap successful! [in 473 ms] (/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap)
+[2017.02.07-11.12.28:769][350]LogSavePackage: Save=1156.53ms
+[2017.02.07-11.12.28:774][350]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/RollingBPExampleMap6A8D0E52467238C6516F41AFFB19A7C1.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2017.02.07-11.12.28:780][350]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2017.02.07-11.12.28:806][350]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.243
+[2017.02.07-11.12.32:438][759]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.12.32:460][759]Cmd: MAP LOAD FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.07-11.12.32:460][759]LightingResults: New page: Lighting Build
+[2017.02.07-11.12.32:460][759]LoadErrors: New page: Loading map: Empty.umap
+[2017.02.07-11.12.32:493][759]MapCheck: New page: Map Check
+[2017.02.07-11.12.32:493][759]LightingResults: New page: Lighting Build
+[2017.02.07-11.12.32:532][759]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.07-11.12.32:555][759]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.07-11.12.32:584][759]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.065ms to complete.
+[2017.02.07-11.12.32:584][759]LogFileHelpers: Loading map 'Empty' took 0.125
+[2017.02.07-11.12.34:641][982]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.02.07-11.12.46:618][329]LogSavePackage: Save=65.58ms
+[2017.02.07-11.12.46:618][329]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/EmptyFB2AA24446B1471B9782A1BE6221E604.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap'
+[2017.02.07-11.12.46:619][329]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Maps/Empty.umap
+[2017.02.07-11.12.46:643][329]LogFileHelpers: Saving map 'Empty' took 0.146
+[2017.02.07-11.12.55:317][339]LogRenderer: Reallocating scene render targets to support 1208x696 (Frame:90655).
+[2017.02.07-11.13.00:219][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.13.00:219][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.13.00:219][891]PIE: New page: PIE session: Empty (7 Feb 2017 11:13:00)
+[2017.02.07-11.13.00:219][891]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.13.00:220][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000887s)
+[2017.02.07-11.13.00:221][891]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.13.00:221][891]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2017.02.07-11.13.00:221][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001518s)
+[2017.02.07-11.13.00:285][891]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.13.00:287][891]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.13.00
+[2017.02.07-11.13.00:288][891]LogWorld: Bringing up level for play took: 0.000957
+[2017.02.07-11.13.00:288][891]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.13.00:290][891]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.75
+[2017.02.07-11.13.00:290][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.13.04:045][271]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.13.04:045][271]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.13.04:063][271]Cmd: MEM
+[2017.02.07-11.13.04:078][271]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.13.04:078][271]LogMemory: Process Physical Memory: 1278.30 MB used, 1351.84 MB peak
+[2017.02.07-11.13.04:078][271]LogMemory: Process Virtual Memory: 2198.04 MB used, 2376.21 MB peak
+[2017.02.07-11.13.04:078][271]LogMemory: Physical Memory: 4611.87 MB used, 8032.55 MB total
+[2017.02.07-11.13.04:078][271]LogMemory: Virtual Memory: 23404.91 MB used, 134217728.00 MB total
+[2017.02.07-11.13.04:078][271]LogMemory: 
+[2017.02.07-11.13.04:078][271]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.13.04:515][271]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.13.04:515][271]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.13.04:522][271]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.13.04
+[2017.02.07-11.13.04:523][271]LogWorld: Bringing up level for play took: 0.006629
+[2017.02.07-11.13.04:524][271]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.13.04:525][271]LogLoad: Took 0.479207 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.13.20:851][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.13.20:886][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.14.48:166][218]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.14.48:265][218]BlueprintEditorCompileResults: Info [1257.35] Compile of HUD successful! [in 98 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.14.48:680][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.14.48:713][262]LogSavePackage: Save=27.00ms
+[2017.02.07-11.14.48:713][262]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUD615A1F9340F8E93DA8E407B76262B8B0.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.14.48:714][262]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.14.55:474][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.14.55:474][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.14.55:474][992]PIE: New page: PIE session: Empty (7 Feb 2017 11:14:55)
+[2017.02.07-11.14.55:474][992]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.14.55:475][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000909s)
+[2017.02.07-11.14.55:475][992]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.14.55:476][992]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2017.02.07-11.14.55:476][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001631s)
+[2017.02.07-11.14.55:535][992]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.14.55:537][992]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.14.55
+[2017.02.07-11.14.55:537][992]LogWorld: Bringing up level for play took: 0.000825
+[2017.02.07-11.14.55:538][992]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.14.55:539][992]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty 0.505
+[2017.02.07-11.14.55:539][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.14.57:063][142]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.14.57:063][142]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.14.57:081][142]Cmd: MEM
+[2017.02.07-11.14.57:096][142]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.14.57:096][142]LogMemory: Process Physical Memory: 1180.54 MB used, 1360.27 MB peak
+[2017.02.07-11.14.57:096][142]LogMemory: Process Virtual Memory: 2137.12 MB used, 2395.46 MB peak
+[2017.02.07-11.14.57:096][142]LogMemory: Physical Memory: 4479.13 MB used, 8032.55 MB total
+[2017.02.07-11.14.57:096][142]LogMemory: Virtual Memory: 23333.91 MB used, 134217728.00 MB total
+[2017.02.07-11.14.57:096][142]LogMemory: 
+[2017.02.07-11.14.57:096][142]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.14.57:579][142]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.14.57:580][142]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.14.57:587][142]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.14.57
+[2017.02.07-11.14.57:587][142]LogWorld: Bringing up level for play took: 0.006661
+[2017.02.07-11.14.57:588][142]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.14.57:589][142]LogLoad: Took 0.525521 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.15.11:034][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.15.11:065][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.15.15:680][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.15.15:713][931]LogSavePackage: Save=30.90ms
+[2017.02.07-11.15.15:713][931]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUD768ADAF241751D30894E6C8ED2290B5D.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.15.15:714][931]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.16.20:092][480]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.07-11.16.25:876][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.25:876][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.16.25:876][157]PIE: New page: PIE session: Empty (7 Feb 2017 11:16:25)
+[2017.02.07-11.16.25:876][157]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.16.25:877][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000952s)
+[2017.02.07-11.16.25:877][157]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.16.25:877][157]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.02.07-11.16.25:878][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001709s)
+[2017.02.07-11.16.25:943][157]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.16.25:945][157]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.16.25
+[2017.02.07-11.16.25:945][157]LogWorld: Bringing up level for play took: 0.001030
+[2017.02.07-11.16.25:946][157]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.16.25:947][157]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty 0.917
+[2017.02.07-11.16.25:947][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.29:641][599]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.16.29:641][599]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.16.29:658][599]Cmd: MEM
+[2017.02.07-11.16.29:674][599]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.16.29:674][599]LogMemory: Process Physical Memory: 1302.94 MB used, 1370.86 MB peak
+[2017.02.07-11.16.29:674][599]LogMemory: Process Virtual Memory: 2272.80 MB used, 2397.30 MB peak
+[2017.02.07-11.16.29:674][599]LogMemory: Physical Memory: 4602.63 MB used, 8032.55 MB total
+[2017.02.07-11.16.29:674][599]LogMemory: Virtual Memory: 23473.28 MB used, 134217728.00 MB total
+[2017.02.07-11.16.29:674][599]LogMemory: 
+[2017.02.07-11.16.29:674][599]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.16.30:137][599]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.16.30:137][599]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.16.30:145][599]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.16.30
+[2017.02.07-11.16.30:145][599]LogWorld: Bringing up level for play took: 0.006797
+[2017.02.07-11.16.30:146][599]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.16.30:147][599]LogLoad: Took 0.505888 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.16.42:718][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.42:754][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.46:758][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.46:758][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.16.46:758][545]PIE: New page: PIE session: Empty (7 Feb 2017 11:16:46)
+[2017.02.07-11.16.46:758][545]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.16.46:759][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000854s)
+[2017.02.07-11.16.46:759][545]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.16.46:759][545]LogPlayLevel: PIE: World Init took: (0.000442s)
+[2017.02.07-11.16.46:759][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001460s)
+[2017.02.07-11.16.46:825][545]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.16.46:827][545]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.16.46
+[2017.02.07-11.16.46:827][545]LogWorld: Bringing up level for play took: 0.000939
+[2017.02.07-11.16.46:828][545]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.16.46:829][545]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.201
+[2017.02.07-11.16.46:829][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.16.58:638][961]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.16.58:638][961]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.16.58:656][961]Cmd: MEM
+[2017.02.07-11.16.58:671][961]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.16.58:671][961]LogMemory: Process Physical Memory: 1307.88 MB used, 1378.20 MB peak
+[2017.02.07-11.16.58:671][961]LogMemory: Process Virtual Memory: 2275.81 MB used, 2422.07 MB peak
+[2017.02.07-11.16.58:671][961]LogMemory: Physical Memory: 4606.23 MB used, 8032.55 MB total
+[2017.02.07-11.16.58:671][961]LogMemory: Virtual Memory: 23466.82 MB used, 134217728.00 MB total
+[2017.02.07-11.16.58:671][961]LogMemory: 
+[2017.02.07-11.16.58:671][961]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.16.59:129][961]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.16.59:130][961]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.16.59:136][961]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.16.59
+[2017.02.07-11.16.59:137][961]LogWorld: Bringing up level for play took: 0.006414
+[2017.02.07-11.16.59:137][961]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.16.59:138][961]LogLoad: Took 0.500670 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.17.00:236][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.17.00:270][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.17.11:781][285]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.17.11:868][285]BlueprintEditorCompileResults: Info [1400.96] Compile of HUD successful! [in 87 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.17.12:647][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.17.12:676][361]LogSavePackage: Save=27.30ms
+[2017.02.07-11.17.12:676][361]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUDF36BA3F347B0813BADCF4A9A89791948.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.17.12:677][361]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.17.36:165][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.17.36:165][888]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.07-11.17.36:172][888]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.02.07-11.17.36:239][888]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (2 blueprints)
+[2017.02.07-11.17.36:239][888]LogPlayLevel: [PlayLevel] Compiling PhysicsBallBP1 before play...
+[2017.02.07-11.17.36:309][888]LogPlayLevel: PlayLevel: Blueprint regeneration took 144 ms (3 blueprints)
+[2017.02.07-11.17.36:312][888]LogPlayLevel: [PlayLevel] Compiling RollingGameMode before play...
+[2017.02.07-11.17.36:369][888]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (3 blueprints)
+[2017.02.07-11.17.36:388][888]PIE: New page: PIE session: Empty (7 Feb 2017 11:17:36)
+[2017.02.07-11.17.36:388][888]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.17.36:388][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
+[2017.02.07-11.17.36:389][888]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.17.36:389][888]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.02.07-11.17.36:389][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001582s)
+[2017.02.07-11.17.36:450][888]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.17.36:452][888]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.17.36
+[2017.02.07-11.17.36:452][888]LogWorld: Bringing up level for play took: 0.000935
+[2017.02.07-11.17.36:453][888]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.17.36:454][888]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.573
+[2017.02.07-11.17.36:454][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.18.01:977][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.18.02:012][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.20.27:819][ 35]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.20.27:918][ 35]BlueprintEditorCompileResults: Info [1597.02] Compile of HUD successful! [in 98 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.22.04:678][162]LogEditorTransaction: Undo Create Pin Link
+[2017.02.07-11.22.05:713][251]LogEditorTransaction: Undo Move Nodes
+[2017.02.07-11.23.23:669][101]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.23.23:761][101]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2017.02.07-11.23.23:761][101]BlueprintEditorCompileResults: Info [1772.87] Compile of HUD successful! [in 92 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.23.42:764][329]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.23.42:852][329]BlueprintEditorCompileResults: Info [1791.96] Compile of HUD successful! [in 87 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.23.44:147][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.23.44:184][476]LogSavePackage: Save=30.89ms
+[2017.02.07-11.23.44:184][476]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUDFD896D9B4D8F3D350DAEA2A362098100.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.23.44:185][476]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.26.30:029][462]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.26.30:124][462]BlueprintEditorCompileResults: Info [1959.24] Compile of HUD successful! [in 94 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.26.30:696][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.26.30:976][525]LogSavePackage: Save=164.02ms
+[2017.02.07-11.26.30:976][525]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUD4D406D5A4D7BF44F24F112817D43710D.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.26.30:981][525]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.26.41:053][599]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.26.41:143][599]BlueprintEditorCompileResults: Info [1970.26] Compile of HUD successful! [in 89 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.26.41:497][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.26.41:529][633]LogSavePackage: Save=30.80ms
+[2017.02.07-11.26.41:529][633]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUDD1EA0D724533CE42C266EEBB23FFC909.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.26.41:531][633]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.26.42:706][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.26.42:706][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.26.42:706][754]PIE: New page: PIE session: Empty (7 Feb 2017 11:26:42)
+[2017.02.07-11.26.42:706][754]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.26.42:707][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000913s)
+[2017.02.07-11.26.42:707][754]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.26.42:707][754]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2017.02.07-11.26.42:708][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001604s)
+[2017.02.07-11.26.42:771][754]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.26.42:773][754]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.26.42
+[2017.02.07-11.26.42:773][754]LogWorld: Bringing up level for play took: 0.000949
+[2017.02.07-11.26.42:774][754]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.26.42:775][754]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.228
+[2017.02.07-11.26.42:775][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.26.44:484][925]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.26.44:484][925]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.26.44:505][925]Cmd: MEM
+[2017.02.07-11.26.44:520][925]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.26.44:520][925]LogMemory: Process Physical Memory: 1279.64 MB used, 1386.41 MB peak
+[2017.02.07-11.26.44:520][925]LogMemory: Process Virtual Memory: 2244.70 MB used, 2427.04 MB peak
+[2017.02.07-11.26.44:521][925]LogMemory: Physical Memory: 4555.47 MB used, 8032.55 MB total
+[2017.02.07-11.26.44:521][925]LogMemory: Virtual Memory: 23447.59 MB used, 134217728.00 MB total
+[2017.02.07-11.26.44:521][925]LogMemory: 
+[2017.02.07-11.26.44:521][925]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.26.45:013][925]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.26.45:013][925]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.26.45:020][925]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.26.45
+[2017.02.07-11.26.45:021][925]LogWorld: Bringing up level for play took: 0.006486
+[2017.02.07-11.26.45:021][925]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.26.45:022][925]LogLoad: Took 0.537912 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.26.47:112][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.26.47:145][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.26.52:897][718]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.26.52:985][718]BlueprintEditorCompileResults: Info [1982.10] Compile of HUD successful! [in 87 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.26.53:230][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.26.53:264][741]LogSavePackage: Save=32.20ms
+[2017.02.07-11.26.53:264][741]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUD5765ABD746262C7D293ABBBB97656049.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.26.53:265][741]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.26.54:501][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.26.54:501][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.26.54:501][867]PIE: New page: PIE session: Empty (7 Feb 2017 11:26:54)
+[2017.02.07-11.26.54:501][867]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.26.54:502][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000888s)
+[2017.02.07-11.26.54:503][867]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.26.54:503][867]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.02.07-11.26.54:503][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001524s)
+[2017.02.07-11.26.54:563][867]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.26.54:565][867]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.26.54
+[2017.02.07-11.26.54:565][867]LogWorld: Bringing up level for play took: 0.000954
+[2017.02.07-11.26.54:566][867]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.26.54:567][867]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty -0.436
+[2017.02.07-11.26.54:567][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.27.10:461][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.27.10:497][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.28.42:453][ 33]BlueprintLog: New page: Compile PhysicsBallBP1
+[2017.02.07-11.28.42:556][ 33]BlueprintEditorCompileResults: Info [2091.68] Compile of PhysicsBallBP1 successful! [in 103 ms] (/Game/RollingBP/Blueprints/PhysicsBallBP1.PhysicsBallBP1)
+[2017.02.07-11.28.42:902][ 64]LogSavePackage: Save=34.35ms
+[2017.02.07-11.28.42:902][ 64]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/PhysicsBallBP15D2FFE0E41843020D1FEDBA2C58C1876.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/PhysicsBallBP1.uasset'
+[2017.02.07-11.28.42:903][ 64]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/PhysicsBallBP1.uasset
+[2017.02.07-11.28.45:310][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.28.45:310][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.07-11.28.45:310][349]PIE: New page: PIE session: Empty (7 Feb 2017 11:28:45)
+[2017.02.07-11.28.45:310][349]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_Empty
+[2017.02.07-11.28.45:311][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000926s)
+[2017.02.07-11.28.45:312][349]LogAIModule: Creating AISystem for world Empty
+[2017.02.07-11.28.45:312][349]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.02.07-11.28.45:312][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/Empty.Empty to /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty (0.001673s)
+[2017.02.07-11.28.45:373][349]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.28.45:375][349]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_Empty.Empty up for play (max tick rate 0) at 2017.02.07-11.28.45
+[2017.02.07-11.28.45:375][349]LogWorld: Bringing up level for play took: 0.000893
+[2017.02.07-11.28.45:376][349]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.28.45:377][349]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_Empty 0.379
+[2017.02.07-11.28.45:377][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.28.47:286][577]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.28.47:286][577]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.02.07-11.28.47:305][577]Cmd: MEM
+[2017.02.07-11.28.47:321][577]LogMemory: Platform Memory Stats for Windows
+[2017.02.07-11.28.47:321][577]LogMemory: Process Physical Memory: 1461.39 MB used, 1475.50 MB peak
+[2017.02.07-11.28.47:321][577]LogMemory: Process Virtual Memory: 2491.02 MB used, 2509.47 MB peak
+[2017.02.07-11.28.47:321][577]LogMemory: Physical Memory: 4733.09 MB used, 8032.55 MB total
+[2017.02.07-11.28.47:321][577]LogMemory: Virtual Memory: 23697.79 MB used, 134217728.00 MB total
+[2017.02.07-11.28.47:321][577]LogMemory: 
+[2017.02.07-11.28.47:321][577]Allocator Stats for TBB: (not implemented)
+[2017.02.07-11.28.47:801][577]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.02.07-11.28.47:801][577]LogWorld: Game class is 'RollingGameMode_C'
+[2017.02.07-11.28.47:809][577]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.02.07-11.28.47
+[2017.02.07-11.28.47:809][577]LogWorld: Bringing up level for play took: 0.006805
+[2017.02.07-11.28.47:810][577]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.02.07-11.28.47:811][577]LogLoad: Took 0.524468 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.02.07-11.29.03:562][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.29.03:595][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty' with GeneratedClass '/Game/RollingBP/Maps/Empty.Empty_C' with ClassGeneratedBy '/Game/RollingBP/Maps/Empty.Empty:PersistentLevel.Empty'
+[2017.02.07-11.29.06:144][679]LogSavePackage: Save=30.47ms
+[2017.02.07-11.29.06:144][679]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/PhysicsBallBP1A4D13528467C2B4A798763ABE951CBE3.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/PhysicsBallBP1.uasset'
+[2017.02.07-11.29.06:145][679]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/RollingBP/Blueprints/PhysicsBallBP1.uasset
+[2017.02.07-11.30.01:026][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.07-11.30.10:526][857]BlueprintLog: New page: Compile HUD
+[2017.02.07-11.30.10:634][857]BlueprintEditorCompileResults: Info [2179.76] Compile of HUD successful! [in 107 ms] (/Game/HUD/HUD.HUD)
+[2017.02.07-11.30.15:913][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/HUD" FILE="../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset" SILENT=true
+[2017.02.07-11.30.15:948][463]LogSavePackage: Save=29.93ms
+[2017.02.07-11.30.15:948][463]LogSavePackage: Moving '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Saved/HUDFFD579374144052C84DDE28EF7BC7A4C.tmp' to '../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset'
+[2017.02.07-11.30.15:950][463]LogSavePackage:Display: Finished SavePackage ../../../../Documents/CSC8505 - Game Industry Skills/Prototype/PrototypeCW/FlexPrototype/Content/HUD/HUD.uasset
+[2017.02.07-11.30.17:713][665]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.07-11.30.17:882][666]Cmd: QUIT_EDITOR
+[2017.02.07-11.30.18:055][666]LogExit: Preparing to exit.
+[2017.02.07-11.30.19:005][666]LogExit: Editor shut down
+[2017.02.07-11.30.19:006][666]LogExit: Transaction tracking system shut down
+[2017.02.07-11.30.19:377][666]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.07-11.30.19:377][666]LogExit: Object subsystem successfully closed.
+[2017.02.07-11.30.19:780][666]LogD3D11RHI: Shutdown
+[2017.02.07-11.30.19:780][666]LogD3D11RHI: CleanupD3DDevice
+[2017.02.07-11.30.19:782][666]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (212)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module SequencerWidgets (211)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module BlueprintGraph (210)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module CrashTracker (207)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module SceneOutliner (206)
+[2017.02.07-11.30.19:793][666]LogModuleManager: Shutting down and abandoning module WidgetCarousel (205)
+[2017.02.07-11.30.19:794][666]LogModuleManager: Shutting down and abandoning module AddContentDialog (204)
+[2017.02.07-11.30.19:795][666]LogModuleManager: Shutting down and abandoning module GameplayTags (203)
+[2017.02.07-11.30.19:795][666]LogModuleManager: Shutting down and abandoning module EditorWidgets (202)
+[2017.02.07-11.30.19:795][666]LogModuleManager: Shutting down and abandoning module CollectionManager (201)
+[2017.02.07-11.30.19:795][666]LogModuleManager: Shutting down and abandoning module StatsViewer (200)
+[2017.02.07-11.30.19:795][666]LogModuleManager: Shutting down and abandoning module FoliageEdit (199)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module LandscapeEditor (198)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (197)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module ActorPickerMode (196)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module GeometryMode (195)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module TextureAlignMode (194)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module BspMode (193)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module HardwareSurvey (192)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (191)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module SequenceRecorder (190)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (188)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (186)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module SessionServices (183)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2017.02.07-11.30.19:796][666]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2017.02.07-11.30.19:797][666]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module UserFeedback (162)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module XmlParser (161)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module Blutility (160)
+[2017.02.07-11.30.20:552][666]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (159)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (158)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module InputBindingEditor (157)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (156)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module SettingsEditor (155)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module ProjectLauncher (154)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module SessionFrontend (153)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module ProfilerClient (152)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (151)
+[2017.02.07-11.30.20:553][666]LogModuleManager: Shutting down and abandoning module DeviceManager (150)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module AutomationController (149)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module AutomationWindow (148)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module Layers (147)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (146)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module DetailCustomizations (145)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module PackagesDialog (144)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module Persona (143)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module Kismet (142)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module GraphEditor (141)
+[2017.02.07-11.30.20:586][666]LogModuleManager: Shutting down and abandoning module ClassViewer (140)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module Toolbox (139)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module ModuleUI (138)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module MovieSceneTools (137)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module OutputLog (136)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module GammaUI (135)
+[2017.02.07-11.30.20:587][666]LogModuleManager: Shutting down and abandoning module Documentation (134)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (133)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module AnalyticsET (132)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module Analytics (131)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module PortalServices (130)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module PortalRpc (129)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module MessagingRpc (128)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2017.02.07-11.30.20:588][666]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (113)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module HTML5Networking (112)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SuperSearch (111)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (110)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2017.02.07-11.30.20:651][666]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (95)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2017.02.07-11.30.20:652][666]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2017.02.07-11.30.20:653][666]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2017.02.07-11.30.20:653][666]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2017.02.07-11.30.20:653][666]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (88)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module Paper2D (87)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module Media (85)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module MediaAssets (83)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (82)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (81)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2017.02.07-11.30.20:754][666]LogModuleManager: Shutting down and abandoning module VREditor (79)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module Sequencer (73)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (72)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module MessageLog (71)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module SlateReflector (67)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module Slate (66)
+[2017.02.07-11.30.20:755][666]LogModuleManager: Shutting down and abandoning module EditorStyle (65)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module Core (59)
+[2017.02.07-11.30.20:757][666]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (58)
+[2017.02.07-11.30.20:758][666]LogModuleManager: Shutting down and abandoning module AssetRegistry (57)
+[2017.02.07-11.30.20:827][666]LogModuleManager: Shutting down and abandoning module KismetCompiler (56)
+[2017.02.07-11.30.20:827][666]LogModuleManager: Shutting down and abandoning module PhysXFormats (55)
+[2017.02.07-11.30.20:827][666]LogModuleManager: Shutting down and abandoning module MeshUtilities (54)
+[2017.02.07-11.30.20:828][666]LogModuleManager: Shutting down and abandoning module DerivedDataCache (53)
+[2017.02.07-11.30.20:859][666]LogDerivedDataCache: Shutdown
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (51)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (49)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (45)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (43)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (42)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (41)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (40)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (39)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Messaging (38)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (27)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.02.07-11.30.20:859][666]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (25)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (24)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.07-11.30.20:860][666]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.07-11.30.22:365][666]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.07-11.30.22:373][666]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.07-11.30.22:382][666]LogExit: Exiting.
+[2017.02.07-11.30.22:386][666]Log file closed, 02/07/17 11:30:22
