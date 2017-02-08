@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-752F73104FEACF64B1F84DB50B4D8FE4_0000</CrashGUID>
+<ProcessId>4684</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>1</IsSourceDistribution>
+<IsEnsure>0</IsEnsure>
+<SecondsSinceStart>165</SecondsSinceStart>
+<GameName>UE4-FlexPrototype</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.12.4-0+UE4</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>2057</LanguageLCID>
+<AppDefaultLocale>en_GB</AppDefaultLocale>
+<IsUE4Release>0</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/UnrealEngine-FleX/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/UnrealEngine-FleX/</RootDir>
+<MachineId>13A7C3D0443223D2B10DDDB96CEBD965</MachineId>
+<EpicAccountId>6369c8e8e0bb4693989a01c6c4a68267</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Fatal error: [File:D:\UnrealEngine-FleX\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 11] &nl;Cast of Package /Game/HUD/HUD to EdGraphNode failed&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-4790S CPU @ 3.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 8.1</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8422744064</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>4906717184</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140714030862336</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>839970816</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>900792320</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1258545152</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1262432256</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<BuildIntegrityStatus>0</BuildIntegrityStatus>
+</PlatformProperties>
+</FGenericCrashContext>
